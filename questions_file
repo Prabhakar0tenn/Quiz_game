@@ -1,0 +1,44 @@
+public class Question {
+    private String questionText;
+    private String correctAnswer;
+    private String optionA, optionB, optionC, optionD;
+    private int level;
+
+    public Question(String questionText, String correctAnswer, String optionA, String optionB, String optionC, String optionD, int level) {
+        this.questionText = questionText;
+        this.correctAnswer = correctAnswer;
+        this.optionA = optionA;
+        this.optionB = optionB;
+        this.optionC = optionC;
+        this.optionD = optionD;
+        this.level = level;
+    }
+
+    public String getQuestionText() {
+        return questionText;
+    }
+
+    public String getCorrectAnswer() {
+        return correctAnswer;
+    }
+
+    public String getOptionA() {
+        return optionA;
+    }
+
+    public String getOptionB() {
+        return optionB;
+    }
+
+    public String getOptionC() {
+        return optionC;
+    }
+
+    public String getOptionD() {
+        return optionD;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+}
